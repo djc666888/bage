@@ -2,4 +2,4 @@
 hostname = *.delsen.mobi,dnlq8umwclsn5.cloudfront.net,d14vnrk0y3lhsq.cloudfront.net
 
 [rewrite_local]
-^http[s]?:\/\/(.+.delsen.mobi|dnlq8umwclsn5.cloudfront.net|d14vnrk0y3lhsq.cloudfront.net)\/api\/app\/(recommend\/vid\/(list|ad)|mine\/info|ping\/domain\/h5|vid\/(section|info|list|user\/count)|recreation\/list) url script-response-body https://github.com/djc666888/bage/blob/main/323/paofu.js
+^http[s]?:\/\/(.+.delsen.mobi|dnlq8umwclsn5.cloudfront.net|d14vnrk0y3lhsq.cloudfront.net)\/api\/app\/(recommend\/vid\/(list|ad)|mine\/info|ping\/domain\/h5|vid\/(section|info|list|user\/count)|recreation\/list) url script-response-body https://raw.githubusercontent.com/djc666888/bage/main/323/paofu.js
